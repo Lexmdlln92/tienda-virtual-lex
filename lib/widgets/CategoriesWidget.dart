@@ -14,7 +14,7 @@ class CategoriesWidget extends StatelessWidget {
                 margin: EdgeInsets.symmetric(horizontal: 10),
                 padding: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
                 decoration: BoxDecoration(
-                  color: Colors.amber,
+                  color: Color.fromARGB(255, 73, 73, 73),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Row(
@@ -26,11 +26,11 @@ class CategoriesWidget extends StatelessWidget {
                       height: 60,
                     ),
                     const Text(
-                      "sandalia",
+                      "hoodies",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 14,
-                        color: Colors.black,
+                        color: Colors.amber,
                       ),
                     )
                   ],

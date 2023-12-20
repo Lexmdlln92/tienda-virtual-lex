@@ -18,7 +18,7 @@ class ItemsWidget extends StatelessWidget {
             padding: const EdgeInsets.only(left: 15, right: 15, top: 10),
             margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 10),
             decoration: BoxDecoration(
-              color: Colors.amber,
+              color: const Color.fromARGB(255, 62, 62, 62),
               borderRadius: BorderRadius.circular(20),
             ),
             child: Column(
@@ -41,7 +41,7 @@ class ItemsWidget extends StatelessWidget {
                     ),
                     const Icon(
                       Icons.favorite_border,
-                      color: Color.fromARGB(255, 52, 1, 61),
+                      color: Colors.amber,
                     )
                   ],
                 ),
@@ -54,8 +54,8 @@ class ItemsWidget extends StatelessWidget {
                     margin: const EdgeInsets.all(10),
                     child: Image.asset(
                       "images/$i.png",
-                      width: 120,
-                      height: 120,
+                      width: 160,
+                      height: 160,
                     ),
                   ),
                 ),
@@ -64,10 +64,10 @@ class ItemsWidget extends StatelessWidget {
                   padding: const EdgeInsets.only(bottom: 8),
                   alignment: Alignment.centerLeft,
                   child: const Text(
-                    "sandalias deluxe",
+                    "buzos deluxe",
                     style: TextStyle(
                       fontSize: 18,
-                      color: Colors.black,
+                      color: Colors.amber,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -75,10 +75,10 @@ class ItemsWidget extends StatelessWidget {
                 Container(
                   alignment: Alignment.centerLeft,
                   child: const Text(
-                    " Write drescription of products",
+                    " hoodies personalizados, 100% algodon",
                     style: TextStyle(
                       fontSize: 15,
-                      color: Color.fromARGB(255, 0, 0, 0),
+                      color: Colors.amber,
                     ),
                   ),
                 ),
@@ -92,11 +92,11 @@ class ItemsWidget extends StatelessWidget {
                         style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
-                            color: Colors.black),
+                            color: Colors.amber),
                       ),
                       Icon(
                         Icons.shopping_cart_checkout,
-                        color: Color.fromARGB(255, 52, 1, 61),
+                        color: Colors.amber,
                       )
                     ],
                   ),
